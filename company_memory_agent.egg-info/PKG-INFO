@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: company-memory-agent
+Version: 0.1.0
+Summary: Python CLI agent that ingests company info into a two-layer JSON memory and answers questions via LLM-routed retrieval.
+Requires-Python: >=3.11
+Requires-Dist: anthropic>=0.39
+Requires-Dist: httpx>=0.27
+Requires-Dist: beautifulsoup4>=4.12
+Requires-Dist: trafilatura>=1.12
+Requires-Dist: pypdf>=4.2
+Requires-Dist: python-docx>=1.1
+Requires-Dist: pydantic>=2.6
+Requires-Dist: typer>=0.12
+Requires-Dist: reportlab>=4.2
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
