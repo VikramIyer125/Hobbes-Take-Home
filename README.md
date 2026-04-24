@@ -11,7 +11,7 @@ through typed tools. It never reads or writes raw JSON.
 ## Quick start
 
 ```bash
-python3.13 -m venv .venv
+python -m venv .venv
 source .venv/bin/activate
 pip install -e '.[dev]'
 
